@@ -1,7 +1,7 @@
 import { MinHeap, MaxHeap } from '@datastructures-js/heap';
 
 const kThSmallest = (arr, n, k) => {
-  let maxyHeap = new MinHeap([]);
+  let maxyHeap = new MaxHeap([]);
 
   for (let i = 0; i < n; i++) {
     maxyHeap.push(arr[i]);
